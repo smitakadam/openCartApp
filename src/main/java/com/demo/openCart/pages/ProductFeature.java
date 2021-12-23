@@ -23,4 +23,9 @@ public class ProductFeature {
 	public void method2()
 	{}
 
+	public void method11()
+	{}
+	public void method12()
+	{}
+
 }
