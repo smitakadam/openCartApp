@@ -17,8 +17,10 @@ public class ProductFeature {
 		this.driver = driver;
 		elementUtils = new ElementUtil(driver);
 	}
-	
+
 	public void method1()
+	{}
+	public void method2()
 	{}
 
 }
