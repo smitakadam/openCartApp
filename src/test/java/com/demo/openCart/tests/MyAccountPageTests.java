@@ -108,7 +108,7 @@ public class MyAccountPageTests extends BaseTest{
 	@AfterClass
 	public void logout()
 	{
-		System.out.println("@AfterClass: MyAccountPageTests");
+		System.out.println("@AfterClass: MyAccountPageTests...");
 	}
 	
 }
