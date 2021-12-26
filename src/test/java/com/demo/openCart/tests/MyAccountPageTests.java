@@ -77,7 +77,7 @@ public class MyAccountPageTests extends BaseTest{
 	@Test(dataProvider = "productsSearch")
 	public void SearchTest(String product)
 	{
-		System.out.println("@Test: SearchTest");
+		System.out.println("@Test: SearchTest...");
 		searchResultPage = myAccountPage.searchProduct(product);
 		
 		Assert.assertTrue(searchResultPage.getSearchProductResultCount()>0, "Verify result count...");
